@@ -1,5 +1,5 @@
 class CreatePosts < ActiveRecord::Migration
-  def change 
+  def change
     create_table :posts do |t|
       t.string :title
       t.text :description
